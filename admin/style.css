@@ -1,0 +1,13 @@
+.lis {
+    font-weight: 700;
+    font-size: 1.1em;
+    
+}
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+}
+#loading_screen {
+    background: url("../preloader.gif") no-repeat fixed center;
+    min-height: 100vh;
+}
