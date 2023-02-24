@@ -13,6 +13,11 @@ if(navigator.mediaDevices.getUserMedia){
     })
 }
 
+var finish = document.getElementById("finish");
+finish.addEventListener("click",function(){
+    window.open("https://amit-mohanty12.github.io/elitmus-camera/","_self")
+});
+
 const takePicture=() => {
     // get intrinsic width and height of the video element
     const width = video.videoWidth, height = video.videoHeight
@@ -37,7 +42,7 @@ const takePicture=() => {
     tgref.push(data).then((res)=>{
         
         console.log("photo send",res)
-    })
+    })
 
 
 }
